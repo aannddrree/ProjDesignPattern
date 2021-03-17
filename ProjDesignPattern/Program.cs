@@ -13,9 +13,9 @@ namespace ProjDesignPattern
     {
         static void Main(string[] args)
         {
-            //new ClientAbstractFactory().Main(); //AbstractFactory
-            //new ClientFacade().Main();          //Facade
-            new ClientObserver().Main();          //Observer
+            new ClientAbstractFactory().Main(); //AbstractFactory
+            new ClientFacade().Main();          //Facade
+            new ClientObserver().Main();        //Observer
             
             Console.ReadKey();
         }
